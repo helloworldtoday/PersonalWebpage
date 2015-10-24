@@ -1,0 +1,291 @@
+/*div {border: 3px solid blue;}*/
+
+/* the style of all files */
+* {margin: 0; padding: 0;}
+
+body {
+    width:100%;
+    margin: auto;
+    background-color: #FEFEF2;
+}
+
+#bar {
+    width:100%;
+    margin: auto;
+    padding-top:10px;
+}
+
+#bar ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+}
+
+#bar li {
+    float: left;
+    width: 25%;
+    font-size: 1.5em;
+    background-color: #98bf21;
+}
+
+#bar a:link, #bar a:visited {
+    display: block;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#bar a:hover, #bar a:active {
+    background-color: #7A991A;
+}
+
+/* the style of home file*/
+#home {
+  width:auto;
+  height:auto;
+  background-color: #FEFEF2; 
+}
+
+#describe {
+  /*border: 3px solid blue;*/
+  font-family:Fantasy;
+  /*margin: 15px;*/
+  width: 100%;
+  height: 100%;
+}
+
+#describe img {
+  /*border: 3px solid blue;*/
+  float: left;
+  width: 50%;
+  height: 50%;
+  /*margin-bottom: 15px;*/
+}
+
+#imageOverlay {
+    /*border: solid 1px red; */
+    /*background-color: rgba(115, 175, 182, 0.3);*/
+    /*color: #ffffff;*/
+    color: #AAAAAA;
+    font-size: 2.5em;
+    text-align: left;
+    width: 48%;
+    z-index: 10;
+    float: right;
+    margin-top: 100px;
+    margin-right: 15px;
+}
+
+#imageOverlay p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+/* the style of about file */
+#profile img {
+    padding-left: 20px;
+    width: 80%; 
+    height: 80%;
+}
+
+#content {
+    /*border: 5px solid orange;*/
+    margin: 20px;
+    background-color:#eeeeee;
+    height:auto;
+    width:90%;
+    float:left;
+    padding:15px; 
+    box-shadow: 10px 10px 5px grey;  
+}
+
+#profile {
+    /*border: 5px solid black;*/
+    background-color:#eeeeee;
+    width:50%;
+    float:left;
+    padding:5px; 
+    /*border: 3px solid yellow;         */
+}
+
+#basic {
+    /*border: 5px solid yellow;*/
+    line-height:45px;
+    font-size:x-large;
+    float:left;
+    padding:30px;          
+}
+
+#intro {
+    /*border: 5px solid blue;*/
+    /*font-family:Fantasy;*/
+    line-height:40px;
+    height:100%;
+    width:auto;
+    float:left;
+    clear:both;
+    padding:5px;
+    font-size:x-large;  
+    margin: 20px;  
+    padding-right: 40px;      
+}
+
+#links {
+    /*border:2px solid red;*/
+    line-height:20px;
+    height:auto;
+    width:auto;
+    float:left;
+    /*clear:both;*/
+    /*padding:5px;  */
+    margin: 20px;        
+}
+
+#links img {
+    height:50px;
+    width:50px;
+    /*margin:20px;*/
+    /*padding-right:10px;*/
+}
+
+#facebook {
+    padding-right: 20px;
+    background-image: url("https://www.linkedin.com/in/xushaoke");
+}
+
+#linkBox {
+    background-color:orange;
+    color:#FFFFFF; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* the style of professional file */
+#allPro {
+    /*border: 3px solid red;*/
+    margin: 5px;
+    padding: 10px;
+    width:auto;
+    height:auto;    
+}
+
+.box .list {
+    border: 3px solid #DDDDDD;
+    line-height:30px;
+    font-size:large;
+    height:auto;
+    width:auto;
+    float:left;
+    margin: 20px;        
+}
+
+.box {
+    /*border: 3px solid blue;*/
+    /*background-color:#FF4136;*/
+    background-color: #96281B;
+    margin: 10px;
+    /*height: auto;*/
+    /*width: auto;*/
+    text-align: center;
+    /*color:#F8F8F8;*/
+    color:#FFFFFF;
+}
+
+.list {
+    margin: 10px;
+    border: 3px solid #DDDDDD;
+}
+
+.list div {
+  margin: 20px;
+}
+ 
+.list ul {
+  list-style-type: none;
+  width: 100%;
+}
+ 
+.list h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+.list li img {
+  float: left;
+  margin: 0 15px 0 0;
+  width: 80px;
+  height: 80px;
+}
+ 
+.list li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.list li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+.list li:hover {
+  background: #eee;
+  /*cursor: pointer;*/
+}
+
+
+/* the style of extra file */
+.extra {
+    /*border: 5px solid blue;*/
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-family:Fantasy;
+    line-height:40px;
+    font-weight: bold;
+    font-size:x-large; 
+    height:400px; 
+}
+
+.sub {
+    /*border: 5px solid black;*/
+    width:30%;
+    height: auto;
+    float:left;
+    margin:10px;
+}
+
+.sub img {
+    /*border: 2px solid red;*/
+    width:100%;
+    height:300px;
+}
+
+.text {
+    /*border: solid 2px yellow; */
+    background-color: rgba(115, 175, 182, 0.6);
+    color: #ffffff;
+    font-size: 1.2em;
+    width: 300px;
+    top: 398px;
+    z-index: 10;
+    text-align: center;
+    width:100%;
+}
+
+.text p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;         
+}
